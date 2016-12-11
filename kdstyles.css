@@ -1,0 +1,45 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 9
+   Case Problem 1
+
+   Kelsey's Diner Style Sheet
+
+   Author:    
+   Date:      
+
+   Filename:         kdstyles.css
+   Supporting Files: 
+
+*/
+
+img {
+   border-width: 0px;
+}
+
+
+
+/* body background image fix */
+
+body {
+	background-image: url(tan.jpg);
+	
+}
+
+/* heading fixes */
+
+h1, h5 {
+	text-align: center;
+	
+}
+
+h1 {
+	color: green;
+}
+
+/* fixed the font tags with spans to color the headings on menues to avoid other css complications if there would have been any */
+
+span {
+	font-family:sans-serif; 
+	color: green;
+}
